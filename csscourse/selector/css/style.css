@@ -1,0 +1,41 @@
+
+
+
+
+/* .top-container  h1{*/
+/*    background: red;*/
+/*}*/
+
+/* .top-container h1:first-child{*/
+/*    background: blue;*/
+/*}*/
+
+ /*.top-container h1:last-child{*/
+ /*    background: blue;*/
+ /*}*/
+
+ /*.top-container h1:nth-child(2){*/
+ /*    background: blue;*/
+ /*}*/
+
+
+/* even select */
+/* .top-container h1:nth-child(odd){*/
+/*     background: blue;*/
+/* }*/
+
+/*ul ul li{*/
+/*    background: red;*/
+/*}*/
+
+/*ul li ul li{*/
+/*    background: red;*/
+/*}*/
+
+/*ul li > ul{*/
+/*    background: red;*/
+/*}*/
+
+/*ul li::after{*/
+/*    content: "->";*/
+/*}*/

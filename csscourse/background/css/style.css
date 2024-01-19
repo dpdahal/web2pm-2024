@@ -1,0 +1,10 @@
+.container{
+    width: 80%;
+    height: 500px;
+    /*background:url("../image/b.jpg") no-repeat;*/
+    margin: auto;
+    /*background-blend-mode: multiply;*/
+    /*background-blend-mode: difference;*/
+    /*background: red;*/
+    background: linear-gradient(to right, red, yellow);
+}

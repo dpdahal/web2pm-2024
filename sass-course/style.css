@@ -1,0 +1,14 @@
+body {
+  background: gray;
+}
+
+.container {
+  background: white;
+  width: 500px;
+  margin: auto;
+}
+.container .box {
+  background: orange;
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */

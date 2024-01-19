@@ -1,0 +1,17 @@
+$primary-color: orange;
+
+body{
+    background: gray;
+}
+
+.container{
+    background: white;
+    width: 500px;
+    margin: auto;
+    .box{
+        background: $primary-color;
+        width: 100px;
+        height: 100px;
+
+    }
+}

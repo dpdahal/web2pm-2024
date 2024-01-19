@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.top-header{
+    background-color: #fafafa;
+    height: 40px;
+}
+
+.top-header a{
+    text-decoration: none;
+    color: #757373;
+    line-height: 40px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-right ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-right ul li{
+    min-width: 100px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+}
+
+
+.top-right ul ul{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.top-right .drop-down >a::after{
+    content: '\2228';
+    display: inline-block;
+    margin-left: 5px;
+
+}
+
+
+.top-right ul li:hover > ul{
+    display: block;
+    border: 1px solid #f8f8f8;
+}

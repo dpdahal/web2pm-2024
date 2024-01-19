@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.bbc_header{
+    width: 100%;
+    height: 60px;
+    background: black;
+    color: white;
+    z-index: 400;
+    position: relative;
+}
+
+.header-main{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.ltbox{
+    height: 40px;
+    background: rgb(255, 255, 255);
+    width: 44px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.logo-icon{
+    background: rgb(0, 0, 0);
+    width: 45%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.logo-icon i{
+    padding-top: 5px;
+}
+
+
+
+.menu-section{
+    width: 60%;
+}
+
+.menu-section ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-section ul li{
+    min-width: 80px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-section ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu-section ul li:hover{
+    border-bottom: 1px solid white;
+}
+
+.menu-section ul li ul{
+    display: flex;
+    background: rgb(0, 0, 0);
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    width: 150px;
+    left: 0;
+}
+
+.menu-section ul li ul li{
+    text-align: left;
+    padding: 20px;
+}
+
+.menu-section ul li:hover ul{
+    display: block;
+}
+
+.search-section{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-section input{
+    width: 98%;
+    height: 33px;
+}
+
+.input-group{
+    width: 75%;
+}
+.input-group input::placeholder{
+    font-size: 12px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.search-btn{
+    width: 18%;
+    height: 30px;
+    background: rgb(1, 80, 43);
+    text-align: center;
+    padding: 4px;
+    line-height: 30px;
+}
+
+.search-btn:hover{
+    background: darkgreen;
+}
+
+
+
+.banner-section{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.banner-title{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-title h1{
+    font-size: 25px;
+}
+
+.banner-title h1:last-child{
+    color: rgb(134, 134, 133);
+}
+
+
+.banner-body{
+    width: 100%;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left-section{
+    width: 49%;
+    height: 460px;
+    background: rgb(112, 29, 29);
+    position: relative;
+}
+
+.banner-left-section img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.banner-left-section img:hover{
+    opacity: 0.9;
+}
+
+
+.bbc-text-box{
+    width: 94%;
+    height: 200px;
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.bbc-text-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner-right-section{
+    width: 49%;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+   
+}
+
+.banner-news-box{
+    width: 49%;
+    height: 225px;
+    position: relative;
+    background: rgb(112, 29, 29);
+}
+
+.banner-news-box img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.banner-news-box img:hover{
+   opacity: 0.9;
+}
+.banner-news-box .bbc-text-box{
+    width: 88%;
+    position: absolute;
+    bottom: 10px;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+.banner-news-box .bbc-text-box{
+    position: absolute;
+    bottom: 10px;
+}
+
+.main-container{
+    margin-top: 30px;
+    width: 100%;
+    background:url("../image/bbc.jpg");
+    height: 400px;
+}

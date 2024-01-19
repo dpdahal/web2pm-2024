@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <blockquote>
+        <h1>Image Gallery</h1>
+        <hr>
+        <!-- <img src="./image/a.jpeg" title="nepal" width="300" alt="image not found">
+        <img src="./image/b.jpg" width="300" alt="image not found"> -->
+
+        <picture>
+            <source srcset="./image/b.jpg" media="(min-width: 650px)">
+            <img src="./image/a.jpeg" alt="Flowers" style="width:auto;">
+        </picture>
+    </blockquote>
+</body>
+</html>

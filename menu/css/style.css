@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 90%;
+    margin: auto;
+    background: #1d1dd0;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+
+}
+.menu ul li{
+    min-width: 100px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu ul li ul{
+    display: flex;
+    flex-direction: column;
+    background: #1d1dd0;
+    position: absolute;
+    display: none;
+}
+.menu ul li:hover{
+    background: #fd8003;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}

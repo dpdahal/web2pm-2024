@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 90%;
+    background: red;
+    margin: auto;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: relative;
+}
+.menu ul li{
+    min-width: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover .submenu{
+    display: block;
+}
+
+.menu ul li .submenu li{
+    text-align: left;
+}
+
+.menu ul li .submenu{
+    background: green;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    min-height: 300px;
+}
